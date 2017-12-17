@@ -1,0 +1,30 @@
+{
+    "name": "i-excellent/yii2-pgsql-schema",
+    "description": "PostgreSQL schemas for Yii2, with fields jsonb, json",
+    "keywords": ["yii2", "extension", "pgsql", "postgres", "postgresql", "array", "json", "bit", "datetime", "timestamp"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/i-excellent/yii2-pgsql-schema"
+    },
+    "authors": [
+        {
+            "name": "Dima Popov",
+            "email": "loss.of.loss@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "i-excellent\\pgsql-schema\\": "src/"
+        }
+    }
+}
