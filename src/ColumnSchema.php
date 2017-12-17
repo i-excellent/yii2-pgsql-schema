@@ -175,11 +175,6 @@ class ColumnSchema extends \yii\db\ColumnSchema
                 return is_string($value) && strncmp($value, '\\x', 2) === 0 ? pack('H*', substr($value, 2)) : $value;
             case Schema::TYPE_JSON:
                 return json_decode($value, true);
-            case Schema::TYPE_TIMESTAMP:
-            case Schema::TYPE_TIME:
-            case Schema::TYPE_DATE:
-            case Schema::TYPE_DATETIME:
-                return new \DateTime($value);
             case Schema::TYPE_COMPOSITE:
                 return $this->phpTypecastComposite($value);
         }

@@ -74,7 +74,7 @@ class Model extends ActiveRecord
     {
         return [
             [['attribute1'], 'each', 'rule' => ['string']],
-            [['attribute2', 'attribute3'], 'safe'],
+            [['attribute2'], 'safe'],
         ];
     }
 }
@@ -91,7 +91,6 @@ You can then save array, json and timestamp types in database as follows:
  */
 $model->attribute1 = ['some', 'values', 'of', 'array'];
 $model->attribute2 = ['some' => 'values', 'of' => 'array'];
-$model->attribute3 = new \DateTime('now');
 $model->save();
 ```
 
@@ -103,7 +102,7 @@ and then use them in your code
 $model = Model::findOne($pk);
 $model->attribute1; // is array
 $model->attribute2; // is associative array (decoded json)
-$model->attribute3; // is \DateTime
+
 ```
 
 [Composite types](docs/composite.md)
