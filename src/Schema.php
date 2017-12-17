@@ -17,6 +17,7 @@ use yii\db\TableSchema;
  */
 class Schema extends \yii\db\pgsql\Schema
 {
+    
     const TYPE_BIT = 'bit';
     const TYPE_JSON = 'json';
     const TYPE_COMPOSITE = 'composite';
