@@ -5,8 +5,8 @@ Improved PostgreSQL schemas for Yii2.
 
 Supports follow types for ActiveRecord models:
 
-[![Latest Stable Version](https://poser.pugx.org/Tigrov/yii2-pgsql/v/stable)](https://packagist.org/packages/Tigrov/yii2-pgsql)
-[![Build Status](https://travis-ci.org/Tigrov/yii2-pgsql.svg?branch=master)](https://travis-ci.org/Tigrov/yii2-pgsql)
+[![Latest Stable Version](https://poser.pugx.org/i-excellent/yii2-pgsql-schema/v/stable)](https://packagist.org/packages/i-excellent/yii2-pgsql-schema)
+[![License](https://poser.pugx.org/i-excellent/yii2-pgsql-schema/license)](https://packagist.org/packages/i-excellent/yii2-pgsql-schema)
 
 Limitation
 ------------
