@@ -178,7 +178,6 @@ class ColumnSchema extends \yii\db\ColumnSchema
             case Schema::TYPE_COMPOSITE:
                 return $this->phpTypecastComposite($value);
         }
-
         return parent::phpTypecast($value);
     }
 
