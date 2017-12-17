@@ -51,7 +51,7 @@ return [
             'username' => 'postgres',
             'password' => '<password>',
             'schemaMap' => [
-                'pgsql'=> 'i-excellent\pgsql-schema\Schema',
+                'pgsql'=> 'excellent\pgsql\Schema',
             ],
         ],
     ],
