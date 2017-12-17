@@ -26,15 +26,6 @@ class Schema extends \yii\db\pgsql\Schema
      * @var array mapping from composite column types (keys) to PHP types (classes in configuration style).
      * `array` by default, `object` also available as PHP type then a result will be converted to \stdClass.
      * The result will be passed to the class constructor as an array.
-     * Example of the class constructor:
-     * ```php
-     * public function __construct($config = [])
-     * {
-     *     if (!empty($config)) {
-     *         \Yii::configure($this, $config);
-     *     }
-     * }
-     * ```
      */
     public $compositeMap = [];
 
